@@ -3,7 +3,12 @@
 
 https://github.com/user-attachments/assets/a293827b-8922-4ac4-9978-99064ebaa9fe
 
+## Model
+<img width="1098" height="895" alt="image" src="https://github.com/user-attachments/assets/fba427c6-5d87-463e-95f0-b3296bbd4943" />
+
+
 ## Installation
+![Uploading image.png…]()
 
 1. Clone the repository:
 ```bash
