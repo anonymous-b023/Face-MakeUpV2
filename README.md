@@ -43,16 +43,6 @@ pip install -r requirements.txt
 
 3. Download pretrained models (see Model Setup section)
 
-## Model Setup
-
-### Required Models:
-- Base diffusion model (e.g., Realistic_Vision_V4.0)
-- CLIP vision encoder
-- Face recognition model
-- Trained IP-Adapter weights
-
-Please refer to the documentation for detailed model setup instructions.
-
 ## Usage
 
 ### Web Demo
