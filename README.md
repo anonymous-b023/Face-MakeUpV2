@@ -1,4 +1,8 @@
 # Face-MakeUpV2 🎨
+## Dataset Release
+
+[Face-MakeUpV2](https://huggingface.co/datasets/anonymous-user-2025/FaceCaptionMask-1M)
+
 ## Demo
 
 https://github.com/user-attachments/assets/a293827b-8922-4ac4-9978-99064ebaa9fe
