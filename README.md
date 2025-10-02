@@ -6,6 +6,9 @@ https://github.com/user-attachments/assets/a293827b-8922-4ac4-9978-99064ebaa9fe
 ## Model&Dataset
 
 <img width="1098" height="895" alt="image" src="https://github.com/user-attachments/assets/fba427c6-5d87-463e-95f0-b3296bbd4943" />
+We constructed our FaceCaptionMask-1M dataset based on the FaceCaptionHQ-4M. The construction process consists of four stages: "text generation—semantic extraction—target mask genera-tion—text-region alignment" Our method generates two types of short text (attribute/emotion) for each facial image, along with corresponding target-level masks, providing regionalized guidance signals for subsequent learning.
+
+Our model incorporates three conditional pathways that converge into the embedding space of the pre-trained Stable Diffusion (SD) model. (1) Text Channel: We randomly select one prompt from two categories—attribute and emotion descriptors—while ensuring that cross-attention maps corresponding to specific identifiers are aligned with semantic masks in the dataset. (2) Face Identity (ID) Channel: We employ a pre-trained visual encoder in conjunction with a specialized facial image encoder to extract identity embedding representations, which are subsequently injected into cross-attention layers. During training, an image branch decoder is estimated from the U-Net output to provide supervision for identity consistency. (3) Shading Channel: We first estimate 3D coefficients using DECA\cite{feng2021learning}, then render them into shading maps that serve as physical attribute input to a learnable module "ShadingNet".
 
 ## Results
 ### FaceCaption
