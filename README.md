@@ -1,16 +1,9 @@
 # Face-MakeUpV2 🎨
+## Demo
 
-An advanced AI-powered face makeup generation system based on IP-Adapter and ControlNet.
+https://github.com/user-attachments/assets/a293827b-8922-4ac4-9978-99064ebaa9fe
 
-## 🌟 Features
-
-- **Face-ID Preservation**: Maintains facial identity while applying makeup
-- **Style Transfer**: Apply various makeup styles from reference images
-- **Attention Mask Guidance**: Precise control over makeup application areas
-- **ControlNet Integration**: Structural guidance for consistent results
-- **Web Interface**: User-friendly Gradio-based demo
-
-## 🚀 Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -25,7 +18,7 @@ pip install -r requirements.txt
 
 3. Download pretrained models (see Model Setup section)
 
-## 📦 Model Setup
+## Model Setup
 
 ### Required Models:
 - Base diffusion model (e.g., Realistic_Vision_V4.0)
@@ -35,7 +28,7 @@ pip install -r requirements.txt
 
 Please refer to the documentation for detailed model setup instructions.
 
-## 🎯 Usage
+## Usage
 
 ### Web Demo
 ```bash
@@ -47,7 +40,7 @@ python demo/demo_v5/web_demo.py
 bash train/mask/lora/train_v5.sh
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Face-MakeUpV2/
@@ -59,25 +52,3 @@ Face-MakeUpV2/
 └── examples/           # Usage examples
 ```
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{facemakeupv2,
-  title={Face-MakeUpV2: Advanced AI Face Makeup Generation},
-  author={Your Name},
-  journal={Your Journal},
-  year={2024}
-}
-```
-
-## 🙏 Acknowledgments
-
-- IP-Adapter team for the foundational work
-- Diffusers library for the pipeline implementation
-- ControlNet for structural guidance
