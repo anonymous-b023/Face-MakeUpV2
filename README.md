@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/a293827b-8922-4ac4-9978-99064ebaa9fe
 <img width="1098" height="895" alt="image" src="https://github.com/user-attachments/assets/fba427c6-5d87-463e-95f0-b3296bbd4943" />
 
 ## Results
-
+### FaceCaption
 | Model | CLIP-T ↑ | VLMScore↑ | Attr↑ | CLIP-I↑ | DINO↑ | FaceSim↑ | FID↓ | LPIPS↓ | Pose-RMSE↓ | Light-RMSE↓ |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Ipadapter-Faceid (2023) [37] | 25.1882 | 86.4300 | 3.9100 | 0.6440 | 0.5651 | 0.6042 | 122.9359 | 0.6788 | 0.1966 | 0.2181 |
@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/a293827b-8922-4ac4-9978-99064ebaa9fe
 | MasterWeaver (2024) [34] | 25.7518 | 58.1000 | 3.7000 | 0.6052 | 0.5567 | 0.3564 | 106.7198 | 0.6828 | 0.2156 | 0.2253 |
 | FaceMakeup (2025) [7] | 24.0256 | **88.3700** | 4.4000 | 0.7513 | 0.7219 | 0.7361 | 99.9833 | 0.6164 | 0.0947 | 0.1441 |
 | Ours | 23.3556 | 84.2100 | **5.9000** | **0.7709** | **0.7857** | **0.7568** | **90.0322** | **0.5627** | **0.0907** | **0.1176** |
-
+### Unsplash
 | Model | CLIP-T ↑ | VLMScore↑ | Attr↑ | CLIP-I↑ | DINO↑ | FaceSim↑ | FID↓ | LPIPS↓ | Pose-RMSE↓ | Light-RMSE↓ |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Ipadapter-Faceid (2023) [37] | 25.2155 | 89.0600 | 4.4500 | 0.7649 | 0.6581 | 0.6534 | 102.9820 | 0.6554 | 0.2319 | 0.2363 |
