@@ -245,7 +245,7 @@ cython_debug/
 
 *.jsonl
 
-checkpoints/
+# checkpoints/
 
 data/
 

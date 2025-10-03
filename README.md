@@ -1,7 +1,11 @@
-# Face-MakeUpV2 🎨
+# Face-MakeUpV2
 ## Demo
 
 https://github.com/user-attachments/assets/a293827b-8922-4ac4-9978-99064ebaa9fe
+
+## Model
+
+
 
 ## Installation
 
