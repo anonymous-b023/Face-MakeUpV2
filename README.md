@@ -1,5 +1,5 @@
 # Face-MakeUpV2 🎨
-## Dataset Release
+## Anonymous Dataset Release
 
 [Face-MakeUpV2](https://huggingface.co/datasets/anonymous-user-2025/FaceCaptionMask-1M)
 
