@@ -5,7 +5,7 @@
 
 ## Demo
 
-https://github.com/user-attachments/assets/414b8e13-61ad-486c-8b44-0389c31b4e10
+https://github.com/user-attachments/assets/fbe03c98-4a53-49c7-91cf-bb236827a4cc
 
 ## Model&Dataset
 
